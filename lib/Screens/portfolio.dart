@@ -53,21 +53,21 @@ class _PortfolioPageState extends State<PortfolioPage> with SingleTickerProvider
         centerTitle: false,
         actions: [
           IconButton(
-            icon: const Icon(Icons.shopping_bag,size: 25, color: Colors.red),
+            icon: const Icon(Icons.shopping_bag,size: 25, color: Color(0xffDF5532)),
             onPressed: () {
             },
           ),
           IconButton(
-            icon: const Icon(Icons.notifications,size: 25, color: Colors.red),
+            icon: const Icon(Icons.notifications,size: 25, color: Color(0xffDF5532)),
             onPressed: () {
             },
           ),
         ],
         bottom: TabBar(
           controller: _tabController,
-          labelColor: Colors.red,
+          labelColor: Color(0xffDF5532),
           unselectedLabelColor: Colors.black,
-          indicatorColor: Colors.red,
+          indicatorColor: Color(0xffDF5532),
           tabs: const [
             Tab(text: 'Project'),
             Tab(text: 'Saved'),

@@ -35,7 +35,7 @@ String searchQuery = '',
         color: Colors.white38,
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: isMatched ? Colors.deepOrange : Colors.grey[300]!,
+          color: isMatched ? Color(0xffDF5532) : Colors.grey[300]!,
           width: isMatched ? 2 : 1,
         ),
         boxShadow: [
@@ -131,7 +131,7 @@ String searchQuery = '',
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(8),
                                 gradient: const LinearGradient(
-                                  colors: [Colors.orange, Colors.yellow],
+                                  colors: [Color(0xffF39519), Color(0xffFFCD67)],
                                   begin: Alignment.topLeft,
                                   end: Alignment.bottomRight,
                                 ),

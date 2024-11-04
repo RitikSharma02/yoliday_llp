@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                 elevation: 0,
                 backgroundColor: Colors.transparent,
                 type: BottomNavigationBarType.fixed,
-                selectedItemColor: Colors.red,
+                selectedItemColor: Color(0xffDF5532),
                 unselectedItemColor: Colors.grey,
                 currentIndex: _selectedIndex,
                 items: [

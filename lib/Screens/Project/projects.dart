@@ -161,7 +161,7 @@ class _ProjectsState extends State<Projects> {
               left: (MediaQuery.of(context).size.width - (MediaQuery.of(context).size.width * 0.6)),
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.deepOrange,
+                  color: Color(0xffDF5532),
                   borderRadius: BorderRadius.circular(18),
                 ),
                 child: Material(
@@ -234,7 +234,7 @@ class _ProjectsState extends State<Projects> {
           suffixIcon: Container(
             margin: const EdgeInsets.all(6.0),
             decoration: BoxDecoration(
-              color: Colors.deepOrange,
+              color: Color(0xffDF5532),
               borderRadius: BorderRadius.circular(8.0),
             ),
             child: const Icon(Icons.search, color: Colors.white, size: 18),
